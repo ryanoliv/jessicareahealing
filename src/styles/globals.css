@@ -3,25 +3,60 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --clr-primary: #fffbf5;
+  --clr-secondary: #383737;
+  --clr-secondary-light: #545353;
+
+  --header-height: 85px;
+
+  --swiper-pagination-bottom: 0px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-family: "BrandonGrotesque", sans-serif;
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
+  scroll-padding-top: var(--header-height);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+main {
+  padding-top: var(--header-height);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Futura", sans-serif;
+}
+
+p,
+span {
+  color: var(--clr-secondary-light);
+}
+
+/* .text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.hero-min-h {
+  min-height: calc(100vh - var(--header-height));
+}
+
+.filler-leaf {
+  position: relative;
+  /* scroll-margin-top: 106px; */
+  background: url("/images/mobile/leaf--to-left-big.webp") left -15vw bottom 0 no-repeat;
+  background-size: cover;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background: var(--clr-secondary);
+  opacity: 0.4;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
 }
