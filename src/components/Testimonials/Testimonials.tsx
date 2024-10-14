@@ -19,7 +19,7 @@ export default function Testimonials() {
       />
       <SectionContainer>
         <div className="flex flex-col items-center gap-10">
-          <h2 className="text-xxl font-medium">Testimonials</h2>
+          <h2>Testimonials</h2>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
@@ -27,7 +27,7 @@ export default function Testimonials() {
             centeredSlides
             // navigation
             pagination={{ clickable: true }}
-            autoplay={{ delay: 12000, disableOnInteraction: false }}
+            autoplay={{ delay: 13000, disableOnInteraction: false }}
             loop
             breakpoints={{
               640: {

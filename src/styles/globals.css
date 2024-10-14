@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-xxxl font-medium tracking-wide;
+  }
+
+  h2 {
+    @apply text-xxl font-medium;
+  }
+}
+
 :root {
   --clr-primary: #fffbf5;
   --clr-secondary: #383737;
@@ -36,10 +46,6 @@ p,
 span {
   color: var(--clr-secondary-light);
 }
-
-/* .text-shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-} */
 
 .hero-min-h {
   min-height: calc(100vh - var(--header-height));

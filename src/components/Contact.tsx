@@ -8,7 +8,7 @@ export default function Contact() {
       <SectionContainer>
         <div className="flex flex-col gap-8">
           <div className="flex flex-col items-center gap-8">
-            <h2 className="text-xxl font-medium">Contact</h2>
+            <h2>Contact</h2>
             <div className="flex flex-col gap-4">
               <h3 className="text-md font-medium">
                 Get in touch with Jessica today if you&apos;re looking to:

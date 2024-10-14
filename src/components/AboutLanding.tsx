@@ -23,8 +23,8 @@ export default function AboutLanding() {
       <SectionContainer>
         <div className="flex flex-col gap-20 items-center">
           <div className="flex flex-col items-center gap-6">
-            <h2 className="text-xxl font-medium">Jessica Réa</h2>
-            <div className="flex flex-col gap-4 tracking-wider text-justify">
+            <h2>Jessica Réa</h2>
+            <div className="flex flex-col gap-4 tracking-wider">
               <p>
                 Healing is a multi-layered process that goes beyond quick fixes.
                 It&apos;s a transformative journey of self-discovery and growth.
@@ -65,7 +65,7 @@ export default function AboutLanding() {
               trajectory shift, a life alignment, and an empowerment.
             </p> */}
             </div>
-            <Button href="/about">Read More</Button>
+            <Button href="/about">Read About</Button>
           </div>
           <div className="flex flex-col gap-8">
             {landingPortraits.map((portrait, index) => (
@@ -75,7 +75,7 @@ export default function AboutLanding() {
                 alt={`Jessica Rea portrait ${index}`}
                 width={300}
                 height={450}
-                className="rounded shadow-md border border-accent"
+                className="rounded-md shadow-md border border-accent"
               />
             ))}
           </div>

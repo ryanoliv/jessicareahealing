@@ -37,19 +37,27 @@ export default function MobileNav() {
       >
         <ul className="p-8 flex flex-col gap-14 items-center justify-center text-md uppercase h-full text-tertiary">
           <li>
-            <Link href="#home">Home</Link>
+            <Link href="/" onClick={toggleNavMenu}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="#about">About</Link>
+            <Link href="/about" onClick={toggleNavMenu}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href="#services">Offerings</Link>
+            <Link href="/offerings" onClick={toggleNavMenu}>
+              Offerings
+            </Link>
           </li>
           <li>
-            <Link href="#contact">Cuisine</Link>
+            <Link href="/cuisine" onClick={toggleNavMenu}>
+              Cuisine
+            </Link>
           </li>
           <li>
-            <Link href="#contact">Bookings</Link>
+            <Link href="#">Bookings</Link>
           </li>
         </ul>
       </nav>

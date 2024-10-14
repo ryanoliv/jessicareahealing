@@ -78,7 +78,7 @@ export default function Form() {
 
   return (
     <div className="flex flex-col text-center gap-4 bg-primaryLight border border-accent p-4 rounded-xl shadow-md">
-      <h2 className="text-xxl font-medium">Say Hello</h2>
+      <h2>Say Hello</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-8">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col relative">
