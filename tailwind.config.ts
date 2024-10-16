@@ -21,6 +21,7 @@ const config: Config = {
         "brandon-grotesque": ["Brandon Grotesque", "sans-serif"],
       },
       fontSize: {
+        xxs: "0.75rem",
         xs: "0.875rem",
         base: "1rem",
         md: "1.125rem",

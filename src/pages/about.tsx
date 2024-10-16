@@ -1,7 +1,7 @@
 import AboutJessica from "@/components/AboutJessica";
 import Head from "next/head";
 
-export default function about() {
+export default function About() {
   return (
     <>
       <Head>

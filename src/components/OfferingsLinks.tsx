@@ -4,7 +4,7 @@ import SectionContainer from "./SectionContainer";
 
 const offeringsData = [
   {
-    link: "/",
+    link: "/offerings/healings",
     image: "/images/offerings/healings.webp",
     offering: "Healings",
   },

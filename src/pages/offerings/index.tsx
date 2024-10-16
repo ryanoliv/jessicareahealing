@@ -1,7 +1,10 @@
 import Head from "next/head";
 import OfferingsLinks from "@/components/OfferingsLinks";
+import SectionContainer from "@/components/SectionContainer";
+import Banner from "@/components/Banner";
+import ServicesLists from "@/components/ServicesLists";
 
-export default function offerings() {
+export default function Offerings() {
   return (
     <>
       <Head>
@@ -12,6 +15,12 @@ export default function offerings() {
         />
       </Head>
       <OfferingsLinks />
+      <Banner />
+      <section>
+        <SectionContainer>
+          <ServicesLists />
+        </SectionContainer>
+      </section>
     </>
   );
 }

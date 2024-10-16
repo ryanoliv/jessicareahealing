@@ -8,9 +8,9 @@ export default function Footer() {
           src="/logos/jr-footer.webp"
           alt="jessica rea footer logo"
           width={50}
-          height={50}
+          height={49}
         />
-        <p className="text-xs text-secondaryLight">
+        <p className="text-xxs text-secondaryLight">
           &copy; Jessica Rea {new Date().getFullYear()}. All Rights Reserved.
         </p>
       </div>

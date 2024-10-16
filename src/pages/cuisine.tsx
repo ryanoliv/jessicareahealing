@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function cuisine() {
+export default function Cuisine() {
   return (
     <>
       <Head>
