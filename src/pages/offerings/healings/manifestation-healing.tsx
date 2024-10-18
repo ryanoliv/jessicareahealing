@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 
 export default function ManifestationHealing() {
@@ -12,9 +12,9 @@ export default function ManifestationHealing() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Manifestation Healing"
-        src="manifestation-healing-big.webp"
+        src="healings/hero/manifestation-healing-big.webp"
         alt="Manifestation Healing"
       />
       <section>

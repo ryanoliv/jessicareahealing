@@ -1,5 +1,5 @@
 import Head from "next/head";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
@@ -13,9 +13,9 @@ export default function SacredGeometryCrystalHealing() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Sacred Geometry Crystal Healing"
-        src="sacred-geometry-big.webp"
+        src="healings/hero/sacred-geometry-big.webp"
         alt="Sacred Geometry Crystal"
       />
       <section>

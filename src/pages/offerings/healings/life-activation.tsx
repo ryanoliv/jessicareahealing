@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Button from "@/components/Button";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
@@ -14,9 +14,9 @@ export default function LifeActivation() {
           content="A Powerful 90 Minute healing bringing radical life change, endless possibilities, transformational shifts and a deep healing. Highly recommended for those looking for a fresh start."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="The Life Activation"
-        src="life-activation-big.webp"
+        src="healings/hero/life-activation-big.webp"
         alt="The Life Activation"
       />
       <section>

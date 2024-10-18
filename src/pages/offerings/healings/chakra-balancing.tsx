@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Head from "next/head";
 
@@ -13,9 +13,9 @@ export default function ChakraBalancing() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Chakra Balancing"
-        src="chakra-balancing-big.webp"
+        src="healings/hero/chakra-balancing-big.webp"
         alt="Chakra Balancing"
       />
       <section>

@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Head from "next/head";
@@ -14,9 +14,9 @@ export default function SacredRites() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Sacred Rites Crystal Healing"
-        src="sacred-rites-big.webp"
+        src="healings/hero/sacred-rites-big.webp"
         alt="Sacred Rites Crystal"
       />
       <section>

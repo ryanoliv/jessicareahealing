@@ -52,12 +52,10 @@ export default function MobileNav() {
             </Link>
           </li>
           <li>
-            <Link href="/cuisine" onClick={toggleNavMenu}>
-              Cuisine
-            </Link>
+            <Link href="#">Rates</Link>
           </li>
           <li>
-            <Link href="#">Bookings</Link>
+            <Link href="#">Contact</Link>
           </li>
         </ul>
       </nav>

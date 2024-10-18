@@ -6,7 +6,7 @@ interface HeroProps {
   alt: string;
 }
 
-export default function HealingHero({ title, src, alt }: HeroProps) {
+export default function OfferingHero({ title, src, alt }: HeroProps) {
   return (
     <section className="flex flex-col hero-min-h">
       <div className="flex-1 flex items-center justify-center">
@@ -14,7 +14,7 @@ export default function HealingHero({ title, src, alt }: HeroProps) {
       </div>
       <div className="relative flex-1">
         <Image
-          src={`/images/healings/hero/${src}`}
+          src={`/images/${src}`}
           alt={`${alt} Healing`}
           fill
           className="object-cover"

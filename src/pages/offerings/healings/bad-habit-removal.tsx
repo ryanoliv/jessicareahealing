@@ -1,4 +1,4 @@
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Head from "next/head";
 
@@ -12,9 +12,9 @@ export default function BadHabitRemoval() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Bad Habit Removal"
-        src="bad-habit-removal-big.webp"
+        src="healings/hero/bad-habit-removal-big.webp"
         alt="Bad Habit Removal"
       />
       <section>

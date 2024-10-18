@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Head from "next/head";
 
@@ -13,9 +13,9 @@ export default function AuraHealing() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Aura Healing"
-        src="aura-healing-big.webp"
+        src="healings/hero/aura-healing-big.webp"
         alt="Aura Healing"
       />
       <section>

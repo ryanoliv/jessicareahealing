@@ -1,4 +1,4 @@
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Head from "next/head";
@@ -13,9 +13,9 @@ export default function RemoteHealing() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Remote Healing"
-        src="remote-healing-big.webp"
+        src="healings/hero/remote-healing-big.webp"
         alt="Remote Healing"
       />
       <section>

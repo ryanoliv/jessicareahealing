@@ -1,4 +1,4 @@
-import HealingHero from "@/components/HealingHero";
+import OfferingHero from "@/components/OfferingHero";
 import SectionContainer from "@/components/SectionContainer";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import Head from "next/head";
@@ -13,9 +13,9 @@ export default function EnsoficReiki() {
           content="Jessica Réa is a Healer and Spiritual Guide who empowers and activates her clients to go within and create a relationship with their true self."
         />
       </Head>
-      <HealingHero
+      <OfferingHero
         title="Ensofic Reiki"
-        src="ensofic-reiki-big.webp"
+        src="healings/hero/ensofic-reiki-big.webp"
         alt="Ensofic Reiki"
       />
       <section>

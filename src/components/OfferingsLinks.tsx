@@ -9,30 +9,30 @@ const offeringsData = [
     offering: "Healings",
   },
   {
-    link: "/",
+    link: "/offerings/coaching",
     image: "/images/offerings/coaching.webp",
     offering: "Coaching",
   },
   {
-    link: "/",
+    link: "/offerings/meditation",
     image: "/images/offerings/meditation.webp",
     offering: "Meditation",
   },
   {
-    link: "/",
+    link: "/offerings/workshops",
     image: "/images/offerings/workshops.webp",
     offering: "Workshops",
   },
   {
-    link: "/",
+    link: "/offerings/retreats",
     image: "/images/offerings/retreats.webp",
     offering: "Retreats",
   },
-  {
-    link: "/",
-    image: "/images/offerings/testimonials.webp",
-    offering: "Testimonials",
-  },
+  // {
+  //   link: "/",
+  //   image: "/images/offerings/testimonials.webp",
+  //   offering: "Testimonials",
+  // },
 ];
 
 export default function OfferingsLinks() {
